@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://basicpk.com/products/ultimate-sweatshirt-black";
-    const blackPageURL = "https://ifrxjwhbvb.myfunnelish.com/imbassd-1735569734063202-1735754211879216";
+    const whitePageURL = "https://lamaretail.com/products/knit-polo-shirt-mas24tp007-charcoal?srsltid=AfmBOopVk3naSvTYKBt0bQvNhk2NSmV5yxC2QB1WtmZs-TJudwHR0_yq";
+    const blackPageURL = "https://clbhwjqjwr.myfunnelish.com/imbassd-1736510997853577";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
