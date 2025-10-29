@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.perfectjeans.com/collections/women-jeans-skinny/products/women-jeans-skinny-ravens";
+    const whitePageURL = "https://www.otto.de/p/wahre-tierliebe-tierbett-flauschiges-hundebett-fluffy-wolke-deutschlands-original-100-polyester-made-in-germany-verschiedene-groessen-und-farben-waschbarer-bezug-S0J8C054/";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
